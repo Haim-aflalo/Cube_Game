@@ -1,5 +1,7 @@
 import random
-
+from utils import is_bust
+from utils import is_exact_100
+from  utils import closer_to_target
 def roll_two_d6():
     d1 = random.randint(1,6)
     d2= random.randint(1, 6)
